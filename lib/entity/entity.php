@@ -2,12 +2,12 @@
 namespace entity;
 
 abstract class entity{
-	protected $ToUserName = '';
-	protected $FromUserName = '';
-	protected $CreateTime = '';
-	protected $MsgType = '';
+	public $ToUserName = '';
+	public $FromUserName = '';
+	public $CreateTime = '';
+	public $MsgType = '';
 
-	public function __construct(Object $xml){
+	public function __construct(\SimpleXMLElement $xml){
 		foreach ($xml as $key => $value){
 			$this->{$key} = $value;
 		}

@@ -2,6 +2,6 @@
 namespace entity;
 
 class userEventEntity extends entity{
-	protected $Content = '';
-	protected $MsgId = '';
+	public $Content = '';
+	public $MsgId = '';
 }

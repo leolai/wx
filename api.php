@@ -1,6 +1,7 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors',1);
+date_default_timezone_set('Asia/Shanghai');
 
 define('ROOT_PATH', __DIR__.'/');
 define('LIB_PATH', ROOT_PATH.'lib/');
@@ -29,3 +30,6 @@ class api{
 		echo response\responseFactory::generate($entity);
 	}
 }
+
+$api = new api();
+$api->exec();

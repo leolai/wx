@@ -2,7 +2,7 @@
 namespace entity;
 
 class entityFactory{
-	public function __construct(Object $xml){
+	public function __construct(\stdClass $xml){
 		foreach ($xml as $key => $value){
 			$this->$key = $value;
 		}

@@ -2,7 +2,7 @@
 namespace response;
 
 abstract class response{
-		private $textTpl = 	<<<'EOT'
+	public $textTpl = 	<<<'EOT'
 <xml>
 	<ToUserName><![CDATA[%s]]></ToUserName>
 	<FromUserName><![CDATA[%s]]></FromUserName>
@@ -13,7 +13,7 @@ abstract class response{
 </xml>
 EOT;
 	
-	private $textAndPicTpl =  <<<'EOT'
+	public $textAndPicTpl =  <<<'EOT'
 <xml>
 	<ToUserName><![CDATA[%s]]></ToUserName>
 	<FromUserName><![CDATA[%s]]></FromUserName>
@@ -28,12 +28,11 @@ EOT;
 </xml>
 EOT;
 		
-	private $entity = '';
+	public $entity = '';
 	
-	public function __construct(entity $entity){
+	public function __construct(\entity\entity $entity){
 		$this->entity = $entity;
 	}
 	
-	abstract public function __toString(){}
 
 }
