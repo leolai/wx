@@ -8,3 +8,7 @@
 2015-11-06 18:34:51: "<xml><URL><![CDATA[http:\\\/\\\/laijim.com\\\/weixin\\\/api.php]]><\\\/URL><ToUserName><![CDATA[laijim123]]><\\\/ToUserName><FromUserName><![CDATA[1659544130]]><\\\/FromUserName><CreateTime>1446706831<\\\/CreateTime><MsgType><![CDATA[text]]><\\\/MsgType><Content><![CDATA[1]]><\\\/Content><MsgId>1234567890123456<\\\/MsgId><\\\/xml>"
 2015-11-06 18:35:58: "<xml><URL><![CDATA[http:\\\/\\\/laijim.com\\\/weixin\\\/api.php]]><\\\/URL><ToUserName><![CDATA[laijim123]]><\\\/ToUserName><FromUserName><![CDATA[1659544130]]><\\\/FromUserName><CreateTime>1446706831<\\\/CreateTime><MsgType><![CDATA[text]]><\\\/MsgType><Content><![CDATA[1]]><\\\/Content><MsgId>1234567890123456<\\\/MsgId><\\\/xml>"
 2015-11-06 18:36:51: "<xml><URL><![CDATA[http:\\\/\\\/laijim.com\\\/weixin\\\/api.php]]><\\\/URL><ToUserName><![CDATA[laijim123]]><\\\/ToUserName><FromUserName><![CDATA[1659544130]]><\\\/FromUserName><CreateTime>1446706831<\\\/CreateTime><MsgType><![CDATA[text]]><\\\/MsgType><Content><![CDATA[1]]><\\\/Content><MsgId>1234567890123456<\\\/MsgId><\\\/xml>"
+2015-11-06 18:45:58: 
+2015-11-06 18:45:58: "xml parse error!"
+2015-11-06 18:45:58: 
+2015-11-06 18:45:58: false
